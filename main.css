@@ -6,16 +6,16 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 350px;
-  height: auto;
+  width: auto;
+  height: 50vh;
   margin:auto;
 }
 
 .fun {
-  width: 10em;
-  height: 10em;
-  border: 5px solid black;
-  margin: 2px;
+  width: 1vw;
+  height: 1vh;
+  /*border: 5px solid black;
+  margin: 2px;*/
   background: gray;
 }
 

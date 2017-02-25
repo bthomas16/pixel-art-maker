@@ -21,3 +21,11 @@ container.addEventListener('click', function(event) {
     event.target.style.backgroundColor = newColor;
   }
 })
+
+var cellCount = 4900
+for (i=1; i <= cellCount; i++) {
+  var newCell = document.createElement('div')
+    newCell.classList.add('fun')
+    newCell.textContent = ""
+    container.appendChild(newCell)
+  }
