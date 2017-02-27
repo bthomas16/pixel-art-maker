@@ -3,11 +3,6 @@ var container = document.querySelector('.container')
 var newColor = "white"
 var paintBrush =
 
-
-
-
-
-
 document.querySelector('.paint-container')
 paintBrush.addEventListener('click', function(event) {
 var colorBox = window.getComputedStyle(event.target)
